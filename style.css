@@ -1,4 +1,5 @@
 *{
+      font-family: "Inter", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -64,4 +65,50 @@ body{
 }
 .container-left h3{
     font-size: 3rem;
+}
+
+/* ----container-text---- */
+.container-text{
+    padding: 150px 60px;
+    display: flex;
+    gap: 150px;
+
+}
+.container-text-left h3{
+    font-size: 3rem;
+}
+.container-text-left img{
+    object-fit: cover;
+    margin-left: -50px;
+}
+.container-text-left{
+    width: 100%;
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.container-text-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 450px;
+}
+.container-text-right-span{
+    font-family: "DM Mono", monospace;
+    padding-left: 20px;
+    border-left: solid #8DFD1B ;
+    color: #8DFD1B;
+    font-size: 25px;
+}
+.container-text-right a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 60px;
+    width: fit-content;
+    border: solid #8DFD1B ;
+}
+.container-text-left span{
+    color: #A8A8A8;
 }
