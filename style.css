@@ -34,3 +34,34 @@ body{
 .fa-brands .fa-twitter{
     color: white !important;
 }
+
+
+/* ---container-title--- */
+.container-title{
+    padding: 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-left p{
+    color: #ffffffd0;
+    padding-bottom: 100px;
+    font-size: 19px;
+}
+.container-left a{
+    padding: 20px 50px;
+    width:fit-content;
+    text-decoration: none;
+    background-color: #8DFD1B;
+    color:black;
+}
+.container-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    max-width: 400px;
+}
+.container-left h3{
+    font-size: 3rem;
+}
